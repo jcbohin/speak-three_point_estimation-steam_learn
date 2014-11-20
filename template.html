@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+  <style type="text/css">
+    slide {
+      border-bottom: 30px black solid !important;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+<body style="opacity: 0">
+
+  <slides class="layout-widescreen">
+
+    <slide class="logoslide nobackground">
+      <article class="flexbox vcenter">
+        <span><img src="images/steam_learn.png"></span>
+      </article>
+    </slide>
+
+    <slide class="title-slide segue nobackground">
+      <aside class="gdbar"><img src="images/phiropsi.png"></aside>
+      <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+      <hgroup class="auto-fadein">
+        <h1 data-config-title><!-- populated from slide_config.json --></h1>
+        <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+        <p data-config-presenter><!-- populated from slide_config.json --></p>
+      </hgroup>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>Three-Point Estimation</h2>
+        <h3>Agenda</h3>
+      </hgroup>
+      <article>
+        <p>What we'll cover:</p>
+        <ul class="build">
+          <li>What is task/project estimation</li>
+          <li>The three-point estimation</li>
+          <li>Other considerations</li>
+        </ul>
+      </article>
+    </slide>
+
+    <slide class="segue dark nobackground">
+      <aside class="gdbar"><img src="images/phiropsi.png"></aside>
+      <hgroup class="auto-fadein">
+        <h2>What is estimation ?</h2>
+        <h3>and why can it be so hard ?</h3>
+      </hgroup>
+    </slide>
+
+    <slide>
+      <aside class="note">
+        <section>
+          <ul>
+            <li>Great project is a project that outperforms, with a good team, interesting challenges, where you learn...</li>
+            <li>Expected quality covers performance, maintenability, ...</li>
+            <li>side : Expected quality also includes user experience (too oftenly forgotten)</li>
+            <li>Time and Budget are coupled ("time is money")</li>
+            <li>Estimation is about time and budget</li>
+          </ul>
+        </section>
+      </aside>
+      <hgroup>
+        <h2>What is a good project ?</h2>
+      </hgroup>
+      <article>
+        <p>A good project is a project that delivers :</p>
+        <ul class="build">
+          <li>Expected features</li>
+          <li>On time</li>
+          <li>On budget</li>
+          <li>With expected quality</li>
+        </ul>
+      </article>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>What is a good estimation ?</h2>
+      </hgroup>
+      <article>
+        <ul class="build">
+          <li>As accurate as possible</li>
+          <li>Not too optimistic</li>
+          <li>Not too pessimistic</li>
+        </ul>
+      </article>
+    </slide>
+
+    <slide class="segue dark quote nobackground">
+      <article class="flexbox vleft">
+        <hgroup><h2>Spoiler alert!</h2></hgroup>
+      </article>
+    </slide>
+
+    <slide class="segue dark quote nobackground">
+
+      <aside class="gdbar right bottom"><img src="images/phiropsi.png"></aside>
+      <article class="flexbox vleft auto-fadein">
+        <q>
+          Human brain is not good at making estimates.
+        </q>
+        <div class="author">
+          Me<br>
+          (and every objective human being)
+        </div>
+      </article>
+    </slide>
+
+    <slide>
+      <aside class="note"><section>
+        <ul>
+          <li>Wishful thinking: formation of beliefs and making decisions according to what might be pleasing to imagine</li>
+          <li>Anchoring / Focalism: rely too heavily on the first piece of information offered</li>
+          <li>Planning fallacy: optimistic bias (underestimate the time needed)</li>
+          <li>Cognitive dissonance: holds two or more contradictory beliefs</li>
+        </ul>
+      </section></aside>
+      <hgroup>
+        <h2>Why is it difficult ?</h2>
+      </hgroup>
+      <article>
+        <p>We all have cognitive bias</p>
+        <ul>
+          <li>Wishful thinking</li>
+          <li>Anchoring / Focalism</li>
+          <li>Planning fallacy</li>
+          <li>Cognitive dissonance</li>
+        </ul>
+      </article>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>Questions to ask yourself</h2>    
+      </hgroup>
+      <article>
+        <ul>
+          <li>How complex and big is the project ?</li>
+          <li>Have we ever made something like this ?</li>
+        </ul>
+      </article>
+    </slide>
+    
+    <slide>
+      <hgroup>
+        <h2>Common estimation scenarios</h2>
+      </hgroup>
+      <article class="flexbox vcenter">
+        <img src="images/project_type.png" alt="Project types">
+      </article>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>To estimate a project...</h2>
+      </hgroup>
+      <article>
+        <p>... cut it in consistent tasks.</p>
+      </article>
+    </slide>
+
+    <slide class="segue dark nobackground">
+      <aside class="gdbar"><img src="images/phiropsi.png"></aside>
+      <hgroup class="auto-fadein">
+        <h2>Three-point estimation</h2>
+      </hgroup>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>Pre-requisites</h2>
+      </hgroup>
+      Before getting into three-point estimation, we need a little background in...
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>Maths and probabilities</h2>
+      </hgroup>
+      <article class="flexbox vcenter">
+        <img src="images/science.jpg"><br>
+        <footer>(c) <a href="http://ahandgesture.deviantart.com/art/Stand-Back-I-m-Going-To-Try-Science-FB-cover-328323896">ahandgesture</a></footer>
+      </article>
+    </slide>
+
+    <slide>
+      <aside class="note">
+        <section>
+          <ul>
+            <li>Mean</li>
+            <li>Standard derivation ("écart type" in french)</li>
+            <li>Variance = SD^2</li>
+          </ul>
+        </section>
+      </aside>
+      <hgroup>
+        <h2>Normal (or Gaussian) distribution</h2>
+      </hgroup>
+      <article class="flexbox vcenter">
+        <img src="images/normal_distribution.svg"><br>
+        <footer>(c) <a href="http://en.wikipedia.org/wiki/Normal_distribution#mediaviewer/File:Normal_Distribution_PDF.svg">inductiveload</a></footer>
+      </article>
+    </slide>   
+
+    <slide>
+      <hgroup>
+        <h2>Input</h2>
+      </hgroup>
+      <article>
+        <p>Take three figures (points) :</p>
+        <ul>
+          <li>b = the best-case estimate</li>
+          <li>m = the most likely estimate</li>
+          <li>w = the worst-case estimate</li>
+        </ul>
+      </article>
+    </slide>   
+
+    <slide>
+      <aside class="note">
+        <section>
+          <p>We are using a BETA/double triangle distribution</p>
+        </section>
+      </aside>
+      <hgroup>
+        <h2>Estimation</h2>
+      </hgroup>
+      <article>
+        <p>Estimation is a weighted average.</p>
+        <p>e = (b + 4m + w) / 6</p>
+        <br>
+        <p>And standard deviation </p>
+        <p>σ = (w − b) / 6</p>
+      </article>
+    </slide>   
+
+    <slide>
+      <hgroup>
+        <h2>Example</h2>
+      </hgroup>
+      <article>
+        <ul>
+          <li>b = 2d</li>
+          <li>m = 4d</li>
+          <li>w = 10d</li>
+        </ul>
+        <p>e = (2 + 4*4 + 10) / 6 = 4,666...</p>
+        <p>σ = (10 − 2) / 6 = 1,333...</p>
+      </article>
+    </slide>   
+
+    <slide>
+      <hgroup>
+        <h2>Confidence level</h2>
+      </hgroup>
+      <article>
+        <p>Use SD to add confidence level:</p>
+        <ul>
+          <li>Confidence level in E ± σ is 68%</li>
+          <li>Confidence level in E ± 1,645σ is 90%</li>
+          <li>Confidence level in E ± 2σ is 95%</li>
+          <li>Confidence level in E ± 3σ is 99.7%</li>
+        </ul>
+      </article>
+    </slide>      
+
+    <slide>
+      <hgroup>
+        <h2>Group estimation</h2>
+      </hgroup>
+      <article>
+        <p>You can estimate in group:</p>
+        <ul>
+          <li>It reduces bias</li>
+          <li>It adds more expertise</li>
+          <li>It involves the team (which is good)</li>
+        </ul>
+      </article>
+    </slide>      
+
+    <slide>
+      <hgroup>
+        <h2>Project estimation</h2>
+      </hgroup>
+      <article>
+        <p>To estimate a project based on tasks estimation (e):</p>
+        <p>E = Σe</p>
+        <p>SD = √(Σσ^2)</p>
+        <br>
+        <p>The more subtasks you estimate, the more precise your project estimation will be.</p>
+      </article>
+    </slide>   
+
+    <slide class="segue dark nobackground">
+      <aside class="gdbar"><img src="images/phiropsi.png"></aside>
+      <hgroup class="auto-fadein">
+        <h2>Other considerations</h2>
+      </hgroup>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>When estimating, never forget that</h2>
+      </hgroup>
+      <article>
+        <ul class="build">
+          <li>Ressources are never 100% productive</li>
+          <li>Context switching has a cost</li>
+          <li>Management time, meetings and contingence has a cost too</li>
+          <li>Cognitive bias tend to make estimations too optimistic</li>
+          <li>Those who estimate are not necessarily those who are going to do</li>
+        </ul>
+      </article>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>Also, for a project</h2>
+      </hgroup>
+      <article>
+        <p>Effort and costs are different from delay / planning</p>
+        <p>(but you have PERT to solve that)</p>
+      </article>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>Other methods</h2>
+      </hgroup>
+      <article>
+        <ul>
+          <li>Monte Carlo Simulation</li>
+          <li>*Function points</li>
+          <li>COCOMO / COSYSMO</li>
+          <li>Story points and Planning poker</li>
+          <li>PROBE</li>
+          <li>Use Case Points</li>
+          <li>Putnam</li>
+        </ul>
+        <p>and a thousand more...</p>
+      </article>
+    </slide>      
+
+    <slide class="thank-you-slide segue nobackground">
+      <aside class="note">
+        <section>
+          <p>Steam Learn team</p>
+          <ul>
+            <li>Vincent</li>
+            <li>Pierre</li>
+            <li>Clement</li>
+          </ul>
+        </section>
+      </aside>
+      <aside class="gdbar right"><img src="images/phiropsi.png"></aside>
+      <article class="flexbox vleft auto-fadein">
+        <h2>Thank You!</h2>
+        <p>jc.bohin@phiropsi.com</p>
+      </article>
+      <p class="auto-fadein" data-config-contact>
+        <!-- populated from slide_config.json -->
+      </p>
+    </slide>
+
+    <slide class="segue dark nobackground">
+      <aside class="gdbar"><img src="images/phiropsi.png"></aside>
+      <hgroup class="auto-fadein">
+        <h2>Questions ?</h2>
+      </hgroup>
+    </slide>
+
+    <slide class="logoslide dark nobackground">
+      <article class="flexbox vcenter">
+        <span><img src="images/steam_learn.png"></span>
+      </article>
+    </slide>
+
+    <slide class="backdrop"></slide>
+
+  </slides>
+
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+</html>

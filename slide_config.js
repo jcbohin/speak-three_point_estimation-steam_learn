@@ -5,7 +5,7 @@ var SLIDE_CONFIG = {
     subtitle: 'and general rules to estimate tasks',
     eventInfo: {
       title: 'SteamLearn',
-      date: '19/11/2014'
+      date: '20/11/2014'
     },
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
@@ -26,8 +26,8 @@ var SLIDE_CONFIG = {
     company: 'Phiropsi',
     // gplus: 'http://plus.google.com/1234567890',
     twitter: '@bohinjc',
-    // www: 'http://www.you.com',
-    // github: 'http://github.com/bohinjc'
+    www: 'http://jc.bohin.net',
+    github: 'http://github.com/jcbohin'
   }/*, {
     name: 'Second Name',
     company: 'Job Title, Google',
@@ -37,4 +37,3 @@ var SLIDE_CONFIG = {
     github: 'http://github.com/you'
   }*/]
 };
-
